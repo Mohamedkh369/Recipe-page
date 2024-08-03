@@ -1,0 +1,79 @@
+:root {
+    --page-background-color: #f3e6d8;
+    --recipe-background-color: #ffffff;
+    --border-color: hsl(30, 18%, 87%);
+    --time-title-color: #7b284f;
+    --time-background-color: #fff5fa;
+    --section-title-color: #854632;
+    --text-color: hsl(30, 10%, 34%);
+    --strong-color: hsl(24, 5%, 18%);
+  }
+
+  body{
+    background-color: var(--page-background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 130px auto;
+    min-height: 100vh;
+    font-family:"Outfit", sans-serif;
+    
+  }
+
+  .container{
+    box-sizing: border-box;
+    width: 50%;
+    background-color: var(--recipe-background-color);
+    border-radius: 20px;
+    padding: 40px;
+    
+  
+
+  }
+  img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  
+  .title{
+    font-family:  "Young Serif", serif;
+   
+  }
+ .section-title{
+  font-size: 1.8em;
+  color: var(--section-title-color);
+ }
+
+  h1{
+    font-size: 2.3em;
+  }
+  .smaller-title{
+    color: var(--time-title-color);
+  }
+
+  strong{
+    color: hsl(24, 5%, 18%);
+  }
+  .preparation-time{
+    background-color: var(--time-background-color);
+    padding: 20px;
+    border-radius:10px ;
+  }
+  .preparation-time-list{
+    padding: 0;
+    list-style-position:inside ;
+  }
+ul li{
+  text-indent: 20px;
+}
+
+.ingredients{
+  
+}
+
+.ingredients-list{
+  list-style-position:inside ;
+  padding: 0;
+}
